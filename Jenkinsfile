@@ -30,5 +30,6 @@ pipeline {
             sh 'scp -o StrictHostKeyChecking=no -r /var/lib/jenkins/workspace/prac/target/WebAppCal-0.0.1 centos@3.235.84.18:/home/centos/apache-tomcat-7.0.94/webapps/'
             }
         }
-    }   
+    } 
+  }        
 }
