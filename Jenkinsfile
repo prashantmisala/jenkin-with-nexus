@@ -15,7 +15,7 @@ pipeline {
         }   
         stage('scaning'){
             steps{
-            sh 'mvn sonar:sonar -Dsonar.host.url=http://3.235.84.18:9000 -Dsonar.login=b18f64dbc4f49d00b4eb9a9ea9aa08f62cb066d5'
+            sh 'mvn sonar:sonar -Dsonar.host.url=http://3.235.84.18:9000 -Dsonar.login=d9f3b0b3b3c5d2a73590012bc0503ac3b60897b1'
              }
         }
         stage('nexus') { 
